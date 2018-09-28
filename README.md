@@ -14,9 +14,9 @@ Use the following steps to install the ownCloud server:
     - [Installing using Docker](https://doc.owncloud.org/server/latest/admin_manual/installation/docker/)
     - [Installing using the command line interface](https://doc.owncloud.org/server/latest/admin_manual/installation/command_line_installation.html) 
 4. Specify the ownCloud data directory and database using the [installation wizard](https://doc.owncloud.org/server/latest/admin_manual/installation/installation_wizard.html#quick-start).
-5. Perform the [post-installation steps.](https://doc.owncloud.org/server/latest/admin_manual/installation/installation_wizard.html#post-installation-steps).
+5. Perform the [post-installation steps.](https://doc.owncloud.org/server/latest/admin_manual/installation/installation_wizard.html#post-installation-steps)
 ### Configuring the ownCloud server
-For detailed instructions on configuring the ownCloud server, refer to the Configuration section of the [ownCloud Server Administration Manual](https://doc.ownCloud.org/server/latest/admin_manual/configuration/)
+For detailed instructions on configuring the ownCloud server, refer to the Configuration section of the [ownCloud Server Administration Manual](https://doc.ownCloud.org/server/latest/admin_manual/configuration/).
 Use the following steps to configure the ownCloud server:
 1. Configure the database, using one of the following methods:
     - [Manually](https://doc.owncloud.org/server/latest/admin_manual/configuration/database/linux_database_configuration.html)
@@ -25,7 +25,7 @@ Use the following steps to configure the ownCloud server:
 3.	Configure [php.ini](https://doc.owncloud.org/server/latest/admin_manual/installation/configuration_notes_and_tips.html#php-ini)  and [PHP-FPM.](https://doc.owncloud.org/server/latest/admin_manual/installation/configuration_notes_and_tips.html#php-fpm) 
 4. [Install and manage apps.](https://doc.owncloud.org/server/latest/admin_manual/installation/apps_management_installation.html)
 
-Optionally, you can configure many other features on the server to add security, increase efficiency, and facilitate use. Refer to the Server Configuration section of the [ownCloud Server Administration Manual](https://doc.owncloud.org/server/latest/admin_manual/configuration/server/)
+Optionally, you can configure many other features on the server to add security, increase efficiency, and facilitate use. Refer to the Server Configuration section of the [ownCloud Server Administration Manual](https://doc.owncloud.org/server/latest/admin_manual/configuration/server/).
 ### Enabling users to connect to the ownCloud server using the server’s IP address and port 8080
 To enable users to connect to the ownCloud server using the server’s IP address and port 8080, perform the following steps:
 1. Access the __LDAP user and group backend application__ from the __Apps__ page in ownCloud.
@@ -37,7 +37,8 @@ To enable users to connect to the ownCloud server using the server’s IP addres
 7.	In the __Base DN__ field, enter the base DN if ownCloud does not detect it using the values in the __User DN__ and __Host__ fields.  
 8.	Click __Continue__ to provide other configuration details.  When you are finished, click __Test Configuration__. The ownCloud settings binds the settings to the server. 
     -	If the configuration settings are valid, you receive a success message. Click __Save__ to save the settings. 
-    -	If the settings are not valid, you receive an error message and logs to help determine the settings you need to change.  
+    -	If the settings are not valid, you receive an error message and logs to help determine the settings you need to change.
+    
 For more information, refer to the User Authentication with LDAP procedure in the [ownCloud Server Administration Manual](https://doc.owncloud.org/server/latest/admin_manual/configuration/server/). 
 ### Adding a user account
 To create a user account, access the __User management__ page of the ownCloud Web UI. Refer to the Creating a new user section of the [ownCloud Server Administration Manual.](https://doc.ownCloud.org/server/latest/admin_manual/configuration/user/user_configuration.html#creating-a-new-user)
@@ -50,6 +51,7 @@ Once you have installed the ownCloud server and client software, you can connect
 4.	From the __Enter the Local Folder Option__ screen, specify whether you want to synchronize all files or some files on the ownCloud server.
 5.	Click __Connect__.
 The ownCloud server connects and opens your ownCloud Web GUI.
+
 For more information on using the desktop client, see the [ownCloud Desktop Client Manual.](https://doc.owncloud.org/desktop/latest/)
 ### Connecting to the ownCloud server from an Android device
 Once you have installed the ownCloud server and app, you can connect to the ownCloud server from an Android device, using the following steps:
@@ -58,6 +60,7 @@ Once you have installed the ownCloud server and app, you can connect to the ownC
 3.	Click __connect__. 
 4.	If your server has a self-signed SSL certificate, a warning message explains that the certificate is not trusted. Click __Yes__ to accept the certificate.
 The ownCloud server connects and opens to your __All Files__ page.
+
 For more information about accessing the ownCloud server from an Android device, refer to the [ownCloud Android App Manual.](https://doc.owncloud.org/android/)
 ### Connecting to the ownCloud server from an IOS device
 Once you have installed the ownCloud server and app, you can connect to the ownCloud server from an IOS device, using the following steps:
@@ -65,5 +68,6 @@ Once you have installed the ownCloud server and app, you can connect to the ownC
 2.	Enter the ownCloud server URL and login credentials. 
 3.	Click __connect__. 
 The ownCloud server connects and opens to  __your Files__ page.
+
 For more information about accessing the ownCloud server from IOS, refer to the [ownCloud iOS App Manual.](https://doc.owncloud.org/ios/) 
 
