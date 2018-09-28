@@ -1,7 +1,7 @@
 # ownCloud Server Quickstart Guide
 The ownCloud product is free, open-source software that lets you share and synchronize files among your mobile devices and desktop computers in a secure and private manner. You can also share files with others using a common interface.
 This quickstart guide helps administrators install and configure the ownCloud server and helps users connect to the ownCloud server. 
-## For Administrators
+## For administrators
 
 ### Installing the ownCloud server
 For detailed instructions on installing the ownCloud server, refer to the Installation section of the [ownCloud Server Administration Manual](https://doc.ownCloud.org/server/latest/admin_manual/installation/). 
@@ -19,8 +19,8 @@ Use the following steps to install the ownCloud server:
 For detailed instructions on configuring the ownCloud server, refer to the Configuration section of the [ownCloud Server Administration Manual](https://doc.ownCloud.org/server/latest/admin_manual/configuration/)
 Use the following steps to configure the ownCloud server:
 1. Configure the database, using one of the following methods:
-- [Manually](https://doc.owncloud.org/server/latest/admin_manual/configuration/database/linux_database_configuration.html)
-- Using the [automatic configuration feature](https://doc.owncloud.org/server/latest/admin_manual/configuration/server/automatic_configuration.html)
+    - [Manually](https://doc.owncloud.org/server/latest/admin_manual/configuration/database/linux_database_configuration.html)
+    - Using the [automatic configuration feature](https://doc.owncloud.org/server/latest/admin_manual/configuration/server/automatic_configuration.html)
 2. [Enable file sharing and file management.](https://doc.owncloud.org/server/latest/admin_manual/configuration/files/)
 3.	Configure [php.ini](https://doc.owncloud.org/server/latest/admin_manual/installation/configuration_notes_and_tips.html#php-ini)  and [PHP-FPM.](https://doc.owncloud.org/server/latest/admin_manual/installation/configuration_notes_and_tips.html#php-fpm) 
 4. [Install and manage apps.](https://doc.owncloud.org/server/latest/admin_manual/installation/apps_management_installation.html)
@@ -41,3 +41,29 @@ To enable users to connect to the ownCloud server using the server’s IP addres
 For more information, refer to the User Authentication with LDAP procedure in the [ownCloud Server Administration Manual](https://doc.owncloud.org/server/latest/admin_manual/configuration/server/). 
 ### Adding a user account
 To create a user account, access the __User management__ page of the ownCloud Web UI. Refer to the Creating a new user section of the [ownCloud Server Administration Manual.](https://doc.ownCloud.org/server/latest/admin_manual/configuration/user/user_configuration.html#creating-a-new-user)
+## For users
+### Connecting to the ownCloud server from the desktop
+Once you have installed the ownCloud server and client software, you can connect to the server using the following steps: 
+1.	Click the ownCloud __Desktop Client__ icon.  
+2.	From the ownCloud __connection__ screen, enter the ownCloud server URL.
+3.	Enter login credentials.
+4.	From the __Enter the Local Folder Option__ screen, specify whether you want to synchronize all files or some files on the ownCloud server.
+5.	Click __Connect__.
+The ownCloud server connects and opens your ownCloud Web GUI.
+For more information on using the desktop client, see the [ownCloud Desktop Client Manual.](https://doc.owncloud.org/desktop/latest/)
+### Connecting to the ownCloud server from an Android device
+Once you have installed the ownCloud server and app, you can connect to the ownCloud server from an Android device, using the following steps:
+1.	Open the ownCloud app.
+2.	Enter the ownCloud server URL and login credentials. 
+3.	Click __connect__. 
+4.	If your server has a self-signed SSL certificate, a warning message explains that the certificate is not trusted. Click __Yes__ to accept the certificate.
+The ownCloud server connects and opens to your __All Files__ page.
+For more information about accessing the ownCloud server from an Android device, refer to the [ownCloud Android App Manual.](https://doc.owncloud.org/android/)
+### Connecting to the ownCloud server from an IOS device
+Once you have installed the ownCloud server and app, you can connect to the ownCloud server from an IOS device, using the following steps:
+1.	Open the ownCloud app.
+2.	Enter the ownCloud server URL and login credentials. 
+3.	Click __connect__. 
+The ownCloud server connects and opens to  __your Files__ page.
+For more information about accessing the ownCloud server from IOS, refer to the [ownCloud iOS App Manual.](https://doc.owncloud.org/ios/) 
+
