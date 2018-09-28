@@ -7,3 +7,9 @@ This quickstart guide helps administrators install and configure the ownCloud se
 For detailed instructions on installing the ownCloud server, refer to the Installation section of the [ownCloud Server Administration Manual](https://doc.ownCloud.org/server/latest/admin_manual/installation/). 
 Use the following steps to install the ownCloud server:
 1. Check that you meet the [system requirements](https://doc.owncloud.org/server/latest/admin_manual/installation/system_requirements.html).
+2. Understand the [deployment recommendations](https://doc.owncloud.org/server/latest/admin_manual/installation/deployment_recommendations.html), some of which depend on the number of users for your environment.
+3. 	Install the ownCloud server. You can install the ownCloud server using one of the following methods:
+*[Installing manually on Linux](https://doc.owncloud.org/server/latest/admin_manual/installation/source_installation.html)
+*[Installing using Linux Package Manager](https://doc.owncloud.org/server/latest/admin_manual/installation/linux_installation.html)
+*[Installing using Docker](https://doc.owncloud.org/server/latest/admin_manual/installation/docker/)
+*[Installing using the command line interface](https://doc.owncloud.org/server/latest/admin_manual/installation/command_line_installation.html) 
