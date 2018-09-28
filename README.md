@@ -24,4 +24,5 @@ Use the following steps to configure the ownCloud server:
 2. [Enable file sharing and file management.](https://doc.owncloud.org/server/latest/admin_manual/configuration/files/)
 3.	Configure [php.ini](https://doc.owncloud.org/server/latest/admin_manual/installation/configuration_notes_and_tips.html#php-ini)  and [PHP-FPM.](https://doc.owncloud.org/server/latest/admin_manual/installation/configuration_notes_and_tips.html#php-fpm) 
 4. [Install and manage apps.](https://doc.owncloud.org/server/latest/admin_manual/installation/apps_management_installation.html)
-Optionally, you can configure many other features on the server to add security, increase efficiency, and facilitate use. Refer to the Server Configuration section of the [ownCloud Server Administration Manual.] (https://doc.owncloud.org/server/latest/admin_manual/configuration/server/)
+
+Optionally, you can configure many other features on the server to add security, increase efficiency, and facilitate use. Refer to the Server Configuration section of the [ownCloud Server Administration Manual](https://doc.owncloud.org/server/latest/admin_manual/configuration/server/)
