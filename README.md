@@ -14,7 +14,7 @@ Use the following steps to install the ownCloud server:
     - [Installing using Docker](https://doc.owncloud.org/server/latest/admin_manual/installation/docker/)
     - [Installing using the command line interface](https://doc.owncloud.org/server/latest/admin_manual/installation/command_line_installation.html) 
 4. Specify the ownCloud data directory and database using the [installation wizard](https://doc.owncloud.org/server/latest/admin_manual/installation/installation_wizard.html#quick-start).
-5. Perform the [post-installation steps.](https://doc.owncloud.org/server/latest/admin_manual/installation/installation_wizard.html#post-installation-steps)
+5. Perform the [post-installation steps.](https://doc.owncloud.org/server/latest/admin_manual/installation/installation_wizard.html#post-installation-steps).
 ### Configuring the ownCloud server
 For detailed instructions on configuring the ownCloud server, refer to the Configuration section of the [ownCloud Server Administration Manual](https://doc.ownCloud.org/server/latest/admin_manual/configuration/)
 Use the following steps to configure the ownCloud server:
