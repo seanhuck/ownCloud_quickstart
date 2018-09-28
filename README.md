@@ -9,10 +9,10 @@ Use the following steps to install the ownCloud server:
 1. Check that you meet the [system requirements](https://doc.owncloud.org/server/latest/admin_manual/installation/system_requirements.html).
 2. Understand the [deployment recommendations](https://doc.owncloud.org/server/latest/admin_manual/installation/deployment_recommendations.html), some of which depend on the number of users for your environment.
 3. 	Install the ownCloud server. You can install the ownCloud server using one of the following methods:
-   - [Installing manually on Linux](https://doc.owncloud.org/server/latest/admin_manual/installation/source_installation.html)
-   - [Installing using Linux Package Manager](https://doc.owncloud.org/server/latest/admin_manual/installation/linux_installation.html)
-   - [Installing using Docker](https://doc.owncloud.org/server/latest/admin_manual/installation/docker/)
-   - [Installing using the command line interface](https://doc.owncloud.org/server/latest/admin_manual/installation/command_line_installation.html) 
+    - [Installing manually on Linux](https://doc.owncloud.org/server/latest/admin_manual/installation/source_installation.html)
+    - [Installing using Linux Package Manager](https://doc.owncloud.org/server/latest/admin_manual/installation/linux_installation.html)
+    - [Installing using Docker](https://doc.owncloud.org/server/latest/admin_manual/installation/docker/)
+    - [Installing using the command line interface](https://doc.owncloud.org/server/latest/admin_manual/installation/command_line_installation.html) 
 4. Specify the ownCloud data directory and database using the [installation wizard](https://doc.owncloud.org/server/latest/admin_manual/installation/installation_wizard.html#quick-start).
 5. Perform the [post-installation steps.](https://doc.owncloud.org/server/latest/admin_manual/installation/installation_wizard.html#post-installation-steps)
 ### Configuring the ownCloud server
@@ -36,6 +36,8 @@ To enable users to connect to the ownCloud server using the server’s IP addres
 6.	If the server requires authentication, you can either enter the User DN and optionally the password in the __User DN__ and __Password__ fields. 
 7.	In the __Base DN__ field, enter the base DN if ownCloud does not detect it using the values in the __User DN__ and __Host__ fields.  
 8.	Click __Continue__ to provide other configuration details.  When you are finished, click __Test Configuration__. The ownCloud settings binds the settings to the server. 
-   -	If the configuration settings are valid, you receive a success message. Click __Save__ to save the settings. 
-   -	If the settings are not valid, you receive an error message and logs to help determine the settings you need to change.  
-For more information, refer to the User Authentication with LDAP procedure in the [ownCloud Server Administration Manual(https://doc.owncloud.org/server/latest/admin_manual/configuration/server/). 
+    -	If the configuration settings are valid, you receive a success message. Click __Save__ to save the settings. 
+    -	If the settings are not valid, you receive an error message and logs to help determine the settings you need to change.  
+For more information, refer to the User Authentication with LDAP procedure in the [ownCloud Server Administration Manual](https://doc.owncloud.org/server/latest/admin_manual/configuration/server/). 
+### Adding a user account
+To create a user account, access the __User management__ page of the ownCloud Web UI. Refer to the Creating a new user section of the [ownCloud Server Administration Manual.](https://doc.ownCloud.org/server/latest/admin_manual/configuration/user/user_configuration.html#creating-a-new-user)
