@@ -26,3 +26,16 @@ Use the following steps to configure the ownCloud server:
 4. [Install and manage apps.](https://doc.owncloud.org/server/latest/admin_manual/installation/apps_management_installation.html)
 
 Optionally, you can configure many other features on the server to add security, increase efficiency, and facilitate use. Refer to the Server Configuration section of the [ownCloud Server Administration Manual](https://doc.owncloud.org/server/latest/admin_manual/configuration/server/)
+### Enabling users to connect to the ownCloud server using the server’s IP address and port 8080
+To enable users to connect to the ownCloud server using the server’s IP address and port 8080, perform the following steps:
+1. Access the _LDAP user and group backend application_ from the _Apps_ page in ownCloud.
+2. Click the Server tab.
+3.	If the Server tab already has values assigned to the fields, click Delete Configuration to remove the active configuration. 
+4.	In the Host field, enter the server IP address.
+5.	In the Port field, enter the port number on which to connect the LDAP server. If the field is greyed out, click Detect Port. The application will look for a standard port and enable you to enter the port number manually.  
+6.	If the server requires authentication, you can either enter the User DN and optionally the password in the User DN and Password fields. 
+7.	In the Base DN field, enter the base DN if ownCloud does not detect it using the User DN and host.  
+8.	Click Continue to provide other configuration details.  When you are finished, click Test Configuration. The ownCloud settings binds the settings to the server. 
+•	If the configuration settings are valid, you receive a success message. Click Save to save the settings. 
+•	If the settings are not valid, you receive an error message and logs to help determine the settings you need to change.  
+For more information, refer to the following procedure: https://doc.ownCloud.org/server/latest/admin_manual/configuration/user/user_auth_ldap.html
